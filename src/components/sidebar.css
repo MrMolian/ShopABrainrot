@@ -1,8 +1,6 @@
-
-
 aside {
     @apply w-64 h-screen flex flex-col p-4;
-    background-color: var(--palette-bg);
+    background-color: var(--palette-sidebar);
     color: var(--palette-text);
 }
 .sidebar-title {
@@ -13,6 +11,16 @@ aside {
     background-color: transparent;
     color: inherit;
 }
+.sidebar-logout {
+    @apply flex items-center gap-2 rounded-lg px-3 py-2 transition mt-auto;
+    background-color: white;
+    color: black;
+}
+.sidebar-logout:hover {
+    background-color: var(--palette-surface-hover);
+    cursor: pointer;
+}
 .sidebar-link:hover {
     background-color: var(--palette-surface-hover);
+    cursor: pointer;
 }

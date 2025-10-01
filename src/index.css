@@ -6,7 +6,8 @@
 
 :root {
   /* App palette inspired by current gray-900/700 */
-  --palette-bg: #0f172a; /* deep slate/navy */
+  --palette-sidebar: #0f172a; /* deep slate/navy */
+  --palette-bg: #f3f4f6; /* light gray */
   --palette-surface: #111827; /* dark surface */
   --palette-surface-hover: #374151; /* hover surface */
   --palette-text: #f3f4f6; /* light text */

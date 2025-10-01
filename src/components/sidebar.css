@@ -1,0 +1,18 @@
+
+
+aside {
+    @apply w-64 h-screen flex flex-col p-4;
+    background-color: var(--palette-bg);
+    color: var(--palette-text);
+}
+.sidebar-title {
+    @apply text-2xl font-bold mb-6;
+}
+.sidebar-link {
+    @apply flex items-center gap-2 rounded-lg px-3 py-2 transition;
+    background-color: transparent;
+    color: inherit;
+}
+.sidebar-link:hover {
+    background-color: var(--palette-surface-hover);
+}

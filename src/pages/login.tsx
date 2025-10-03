@@ -12,7 +12,7 @@ export function LoginButton({ username, password }: { username: string, password
   const { login } = useAuth()
   const navigate = useNavigate()
   const onLogin = async (e: React.MouseEvent<HTMLButtonElement>) => {
-        e.preventDefault()
+        e.preventDefault()  
         const success = await login(username, password)
         if (success) {
             navigate("/")
